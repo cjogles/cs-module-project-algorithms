@@ -36,7 +36,7 @@ def eating_cookies(n, cache=None):
                 cache[n-3] = eating_cookies(n - 3, cache)
                 my_sum += cache[n-3]
             return my_sum
-        # invoking recursively the eating_cookies funciton
+        invoking recursively the eating_cookies funciton
         else:
             return eating_cookies(n - 1) + eating_cookies(n - 2) + eating_cookies(n - 3)
     # base cases
