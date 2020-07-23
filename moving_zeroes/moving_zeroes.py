@@ -23,6 +23,7 @@ def moving_zeroes(arr):
     # if left is non-zero => increment left
     # if right is zero => decrement right
     # if left > right, stop
+    
     left = 0
     right = len(arr)-1
     while left <= right:
